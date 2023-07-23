@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: gray;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:20PX auto;
+    max-width: 350px;
+    /* border: 1px solid green; */
+    padding: 10px;
+    border-radius: 6px;
+}
+.word{
+    padding: 15px 4px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: lightgrey;
+    border: none;
+    text-align: center;
+}
+.word:hover{
+    cursor: pointer;
+}
+button{
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    margin-bottom: 9px;
+}
+button:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+.image{
+   align-self: center;
+   margin-bottom: 5px;
+}
+.result{
+    text-align: center;
+}
